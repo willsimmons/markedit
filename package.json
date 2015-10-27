@@ -1,0 +1,24 @@
+{
+  "name": "markedit",
+  "version": "1.0.0",
+  "description": "Markdown Editor in Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/willsimmons/markedit.git"
+  },
+  "keywords": [
+    "markdown",
+    "realtime",
+    "node"
+  ],
+  "author": "Will Simmons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willsimmons/markedit/issues"
+  },
+  "homepage": "https://github.com/willsimmons/markedit#readme"
+}
