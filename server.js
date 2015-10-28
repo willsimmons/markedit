@@ -1,4 +1,5 @@
 var express = require('express');
+var showdown = require('showdown');
 var app = express();
 
 //set up ejs
@@ -10,7 +11,7 @@ app.use(express.static(__dirname +'/public'));
 //routing
 
 app.get('/', function(req,res){
-	res.render('editor');
+	res.render('index');
 });
 
 //start the server
